@@ -1,4 +1,4 @@
-package com.mypetapp.example.mypet.view;
+package com.mypetapp.example.mypet.view.veiwActivity;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.mypetapp.example.mypet.R;
+import com.mypetapp.example.mypet.view.menuNav;
 
 public class splash_activity extends AppCompatActivity {
     private static int waktu = 4000;

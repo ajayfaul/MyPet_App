@@ -1,4 +1,4 @@
-package com.mypetapp.example.mypet.view;
+package com.mypetapp.example.mypet.view.veiwActivity;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;

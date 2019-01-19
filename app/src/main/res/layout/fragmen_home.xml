@@ -16,31 +16,36 @@
 
         <ImageView
 
-            android:id="@+id/notif"
-            android:layout_width="0dp"
+            android:id="@+id/imgnotif"
+            android:layout_width="39dp"
             android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
             android:shadowColor="@color/text_shadow"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="10"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:srcCompat="@drawable/notif" />
+
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/notif"
+            tools:layout_editor_absoluteY="0dp" />
 
 
+        <ImageView
 
-
-        <ImageButton
-            android:id="@+id/setting"
-            app:srcCompat="@drawable/settng"
-            android:layout_width="31dp"
-            android:layout_height="40dp"
+            android:id="@+id/imgsetting"
+            android:layout_width="39dp"
+            android:layout_height="33dp"
+            android:layout_marginEnd="16dp"
             android:shadowColor="@color/text_shadow"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="10"
-            app:layout_constraintRight_toRightOf="parent"
-            android:onClick="bukaSettings"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/baseline_settings_black_24"
+            tools:layout_editor_absoluteY="0dp" />
+
 
     </android.support.constraint.ConstraintLayout>
 <android.support.constraint.ConstraintLayout
@@ -93,7 +98,7 @@
 
         <ImageView
 
-            android:id="@+id/adoption"
+            android:id="@+id/imgadoption"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
@@ -131,7 +136,7 @@
         android:shadowRadius="10">
 
         <ImageView
-            android:id="@+id/petgroming"
+            android:id="@+id/imgpetgroming"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
@@ -176,7 +181,7 @@
 
     </android.support.constraint.ConstraintLayout>
 
-    <ScrollView
+    <HorizontalScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="223dp"
@@ -432,7 +437,7 @@
 
 
         </LinearLayout>
-    </ScrollView>
+    </HorizontalScrollView>
 
     //-----------selesai------////
 </android.support.constraint.ConstraintLayout>
