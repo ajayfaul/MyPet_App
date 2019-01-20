@@ -9,11 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.FhamsterActivity"></activity>
-        <activity android:name=".view.FkumbangActivity" />
-        <activity android:name=".view.FikanActivity" />
-        <activity android:name=".view.FularActivity" />
-        <activity android:name=".view.FanjingActivity" />
         <activity android:name=".view.Fkucing_activity" />
         <activity android:name=".view.petgromingActivity" />
         <activity android:name=".view.adoptionActivity" />

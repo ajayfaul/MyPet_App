@@ -7,4 +7,12 @@
     android:theme="@style/AppTheme2"
     tools:context=".view.Fkucing_activity">
 
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="comunity"
+        android:textSize="70dp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

@@ -143,13 +143,13 @@ public class Home_fragment extends Fragment {
         Intent i=new Intent(getContext(),SettingsActivity.class);
         startActivity(i);
     }
-//   klik petgroming
+//   klik adoption
     @OnClick(R.id.imgadoption)
     public void Klik3(){
         Intent i=new Intent(getContext(),adoptionActivity.class);
         startActivity(i);
     }
-//  klik adoption
+//  klik grooming
     @OnClick(R.id.imgpetgroming)
     public void Klik4(){
         Intent i=new Intent(getContext(),petgromingActivity.class);
@@ -159,14 +159,14 @@ public class Home_fragment extends Fragment {
 //    klikkucing
     @OnClick(R.id.imgFkucing)
     public void Klik5(){
-    Intent i=new Intent(getContext(),petgromingActivity.class);
+    Intent i=new Intent(getContext(),Fkucing_activity.class);
     startActivity(i);
     }
 
 //    klik anjing
     @OnClick(R.id.imgFanjing)
     public void Klik6(){
-    Intent i=new Intent(getContext(),petgromingActivity.class);
+    Intent i=new Intent(getContext(),Fkucing_activity.class);
     startActivity(i);
     }
 
@@ -174,7 +174,7 @@ public class Home_fragment extends Fragment {
 
     @OnClick(R.id.imgikan)
     public void Klik7(){
-        Intent i=new Intent(getContext(),petgromingActivity.class);
+        Intent i=new Intent(getContext(),Fkucing_activity.class);
         startActivity(i);
     }
 
@@ -182,14 +182,14 @@ public class Home_fragment extends Fragment {
 
     @OnClick(R.id.imghamster)
     public void Klik8(){
-        Intent i=new Intent(getContext(),petgromingActivity.class);
+        Intent i=new Intent(getContext(),Fkucing_activity.class);
         startActivity(i);
     }
 
 //    klikkumbang
     @OnClick(R.id.imgkumbang)
     public void Klik9(){
-        Intent i=new Intent(getContext(),petgromingActivity.class);
+        Intent i=new Intent(getContext(),Fkucing_activity.class);
         startActivity(i);
     }
 
@@ -197,7 +197,7 @@ public class Home_fragment extends Fragment {
 
     @OnClick(R.id.imgular)
     public void Klik10(){
-        Intent i=new Intent(getContext(),petgromingActivity.class);
+        Intent i=new Intent(getContext(),Fkucing_activity.class);
         startActivity(i);
     }
 

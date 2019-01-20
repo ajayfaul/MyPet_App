@@ -15,7 +15,6 @@ public class Fkucing_activity extends AppCompatActivity {
 
 
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Community");
+
     }
 }
