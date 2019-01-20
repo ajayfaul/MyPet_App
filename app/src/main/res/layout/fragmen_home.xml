@@ -10,8 +10,11 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
 
 
         <ImageView
@@ -48,33 +51,35 @@
 
 
     </android.support.constraint.ConstraintLayout>
-<android.support.constraint.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
 
-    tools:ignore="MissingConstraints">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        android:shadowColor="@color/text_shadow"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="10"
-        android:text="MyPet"
-        android:textSize="29dp"
+        tools:ignore="MissingConstraints">
 
-        android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="MyPet"
+            android:textSize="29dp"
 
-</android.support.constraint.ConstraintLayout>
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    </android.support.constraint.ConstraintLayout>
 
     <!-- card view untuk adopsi-->
     <android.support.v7.widget.CardView
@@ -163,20 +168,24 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="192dp"
-            android:paddingLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="10dp"
+
             android:shadowDx="0"
             android:shadowDy="0"
+
             android:shadowRadius="10"
             android:text="Lates Pet Adoption"
             android:textSize="20dp"
-            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.069"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.958"
             tools:ignore="MissingConstraints" />
 
 
@@ -638,7 +647,8 @@
             android:layout_marginEnd="24dp"
             android:shadowDx="0"
             android:shadowDy="0"
-            android:shadowRadius="10"
+            android:shadowRadius="100"
+            android:outlineSpotShadowColor="@color/text_shadow"
             app:cardBackgroundColor="@color/light_font"
             app:cardCornerRadius="16dp"
             app:cardPreventCornerOverlap="false"
@@ -667,18 +677,18 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
-            android:layout_height="216dp"
-            android:layout_marginTop="408dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="420dp"
             android:outlineAmbientShadowColor="@color/text_shadow"
-            android:paddingLeft="8dp"
+            android:paddingLeft="28dp"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="10"
             android:text="Forum"
             android:textSize="20dp"
-            android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
