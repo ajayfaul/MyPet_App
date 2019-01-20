@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.mypetapp.example.mypet.R;
-import com.mypetapp.example.mypet.view.veiwActivity.SettingsActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -39,6 +38,18 @@ public class Home_fragment extends Fragment {
     ImageView imgadoption;
     @BindView(R.id.imgpetgroming)
     ImageView imgpetgroming;
+    @BindView(R.id.imgFanjing)
+    ImageView imgFanjing;
+    @BindView(R.id.imgFkucing)
+    ImageView imgFkucing;
+    @BindView(R.id.imghamster)
+    ImageView imghamster;
+    @BindView(R.id.imgikan)
+    ImageView imgikan;
+    @BindView(R.id.imgular)
+    ImageView imgular;
+    @BindView(R.id.imgkumbang)
+    ImageView imgkumbang;
 
 
 
@@ -123,7 +134,7 @@ public class Home_fragment extends Fragment {
     //Untuk membuat event klik dari butter knife gunakan @OnCLick(R.id.namaidview) terus kasih void klik()
     @OnClick(R.id.imgnotif)
     public void Klik(){
-        Intent i=new Intent(getContext(), SettingsActivity.class);
+        Intent i=new Intent(getContext(), notifActivity.class);
         startActivity(i);
     }
 //    klik setting
@@ -135,15 +146,63 @@ public class Home_fragment extends Fragment {
 //   klik petgroming
     @OnClick(R.id.imgadoption)
     public void Klik3(){
-        Intent i=new Intent(getContext(),SettingsActivity.class);
+        Intent i=new Intent(getContext(),adoptionActivity.class);
         startActivity(i);
     }
 //  klik adoption
     @OnClick(R.id.imgpetgroming)
     public void Klik4(){
-        Intent i=new Intent(getContext(),SettingsActivity.class);
+        Intent i=new Intent(getContext(),petgromingActivity.class);
         startActivity(i);
     }
+
+//    klikkucing
+    @OnClick(R.id.imgFkucing)
+    public void Klik5(){
+    Intent i=new Intent(getContext(),petgromingActivity.class);
+    startActivity(i);
+    }
+
+//    klik anjing
+    @OnClick(R.id.imgFanjing)
+    public void Klik6(){
+    Intent i=new Intent(getContext(),petgromingActivity.class);
+    startActivity(i);
+    }
+
+//    klik ikan
+
+    @OnClick(R.id.imgikan)
+    public void Klik7(){
+        Intent i=new Intent(getContext(),petgromingActivity.class);
+        startActivity(i);
+    }
+
+//    klik hamster
+
+    @OnClick(R.id.imghamster)
+    public void Klik8(){
+        Intent i=new Intent(getContext(),petgromingActivity.class);
+        startActivity(i);
+    }
+
+//    klikkumbang
+    @OnClick(R.id.imgkumbang)
+    public void Klik9(){
+        Intent i=new Intent(getContext(),petgromingActivity.class);
+        startActivity(i);
+    }
+
+//    klik ulat
+
+    @OnClick(R.id.imgular)
+    public void Klik10(){
+        Intent i=new Intent(getContext(),petgromingActivity.class);
+        startActivity(i);
+    }
+
+
+
 
     /**
      * This interface must be implemented by activities that contain this

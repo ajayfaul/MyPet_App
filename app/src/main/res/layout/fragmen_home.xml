@@ -159,9 +159,8 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-       >
+        android:layout_height="235dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:layout_width="match_parent"
@@ -171,12 +170,14 @@
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="10"
-            android:textSize="20dp"
             android:text="Lates Pet Adoption"
+            android:textSize="20dp"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp" />
+            tools:ignore="MissingConstraints" />
 
 
     </android.support.constraint.ConstraintLayout>
@@ -184,7 +185,7 @@
     <HorizontalScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="223dp"
+        android:layout_height="656dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/cardView2"
@@ -196,12 +197,12 @@
             android:layout_height="185dp"
             android:layout_marginTop="44dp"
             android:orientation="horizontal"
-            app:layout_constraintTop_toBottomOf="@+id/cardView"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="0dp"
             android:shadowDx="0"
             android:shadowDy="0"
-            android:shadowRadius="10">
+            android:shadowRadius="10"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
 
             //--------------------memasukan latepost-------///
 
@@ -212,15 +213,15 @@
                 android:layout_marginStart="28dp"
 
                 android:layout_marginEnd="8dp"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/cardView2"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-                tools:ignore="MissingConstraints"
-                android:shadowDx="0"
-                android:shadowDy="0"
-                android:shadowRadius="10">
+                tools:ignore="MissingConstraints">
 
                 <ImageView
                     android:id="@+id/hewan"
@@ -269,10 +270,10 @@
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:layout_marginStart="28dp"
+                android:layout_marginEnd="8dp"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="10"
-                android:layout_marginEnd="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -309,6 +310,7 @@
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
+                    android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
@@ -327,10 +329,10 @@
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:layout_marginStart="28dp"
+                android:layout_marginEnd="8dp"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="10"
-                android:layout_marginEnd="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -385,10 +387,10 @@
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:layout_marginStart="28dp"
+                android:layout_marginEnd="8dp"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="10"
-                android:layout_marginEnd="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -429,8 +431,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
                     android:paddingLeft="8dp"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
                     android:text="masukan text di sini"
-                    android:textColor="@color/text_shadow_white" />
+                    android:textColor="@color/text_shadow_white"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold" />
 
 
             </android.support.v7.widget.CardView>
@@ -438,6 +446,246 @@
 
         </LinearLayout>
     </HorizontalScrollView>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/forum"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+
+
+        <!--forum -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fkucing"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="32dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/imgFkucing"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icons8_cat_profile_480"
+
+                />
+        </android.support.v7.widget.CardView>
+
+        <!--anjing-->
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fanjing"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintStart_toEndOf="@+id/Fkucing"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/imgFanjing"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icons8_pug_100"
+
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+        <!--ikan-->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fikan"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toEndOf="@+id/Fanjing"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/imgikan"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icons8_aquarium_100"
+
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+        <!--ularr-->
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fular"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="48dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Fikan"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/imgular"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icons8_year_of_snake_96"
+
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <!--hamster-->
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fhamster"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="28dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintEnd_toStartOf="@+id/Fular"
+            app:layout_constraintTop_toBottomOf="@+id/Fanjing"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/imghamster"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icons8_cute_hamster_100"
+
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+        <!--kumbagn-->
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fkumbang"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintEnd_toStartOf="@+id/Fhamster"
+            app:layout_constraintHorizontal_bias="0.837"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Fkucing"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/imgkumbang"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icons8_ladybird_100"
+
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_marginTop="408dp"
+            android:outlineAmbientShadowColor="@color/text_shadow"
+            android:paddingLeft="8dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="Forum"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
 
     //-----------selesai------////
 </android.support.constraint.ConstraintLayout>
