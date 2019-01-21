@@ -13,7 +13,8 @@ public class notifActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notif);
 
-
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Notification");
 
     }
 }

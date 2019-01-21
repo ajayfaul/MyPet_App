@@ -12,7 +12,9 @@
         <activity android:name=".view.Fkucing_activity" />
         <activity android:name=".view.petgromingActivity" />
         <activity android:name=".view.adoptionActivity" />
-        <activity android:name=".view.notifActivity" />
+        <activity android:name=".view.notifActivity"
+            android:parentActivityName=".view.menuNav"
+            android:theme="@style/AppTheme2"/>
         <activity
             android:name=".view.SettingsActivity"
             android:parentActivityName=".view.menuNav"
