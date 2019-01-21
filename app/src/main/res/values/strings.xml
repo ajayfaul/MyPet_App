@@ -7,4 +7,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="login2">Login</string>
+    <string name="btnregister">Register</string>
+    <string name="doesn_t_have_an_account">Doesn\'t have an account ?</string>
 </resources>
