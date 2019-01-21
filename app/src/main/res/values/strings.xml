@@ -18,4 +18,6 @@
     <string name="confirm_password_register">Confirm Password</string>
     <string name="your_phone_number_register">Your Phone Number</string>
     <string name="your_email">Your Email</string>
+    <string name="register2">Register</string>
+    <string name="have_an_account">Have an account ?</string>
 </resources>

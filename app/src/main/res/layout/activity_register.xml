@@ -23,7 +23,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="170dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -32,7 +32,7 @@
                 android:layout_width="327dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+
                 android:layout_marginRight="20dp"
                 android:paddingLeft="10dp"
                 android:background="@drawable/ediround"
@@ -75,6 +75,35 @@
                 android:background="@drawable/ediround"
                 android:hint="@string/confirm_password_register"
                 android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btn_Daftar"
+                android:layout_width="327dp"
+                android:layout_height="40dp"
+                android:text="@string/register2"
+                android:background="@drawable/editbtnlogin"
+                android:textColor="@color/light_font"
+                />
+
+            <TextView
+                android:id="@+id/txthaveanaccounr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textAlignment="center"
+                android:text="@string/have_an_account"
+                android:textColor="@color/light_font"
+                />
+
+            <Button
+                android:id="@+id/btn_Login"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editbtnregister"
+                android:textColor="@color/light_font"
+                android:text="@string/login"
+                />
 
         </LinearLayout>
 
