@@ -19,7 +19,7 @@ import butterknife.OnClick;
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-    Button btnLogin;
+    Button btnLogin, btnRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +29,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(this);
 
+        btnRegister = findViewById(R.id.btnRegister);
+        btnRegister.setOnClickListener(this);
 
     }
 
@@ -39,6 +41,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     Intent moveIntent = new Intent(LoginActivity.this, menuNav.class);
                     startActivity(moveIntent);
                     break;
+                case R.id.btnRegister:
+                    Intent moveIntent2 = new Intent(LoginActivity.this, RegisterActivity.class);
+                    startActivity(moveIntent2);
+
             }
     }
 }

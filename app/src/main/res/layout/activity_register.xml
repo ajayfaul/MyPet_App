@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginscr"
+    android:orientation="vertical"
+    tools:context=".view.RegisterActivity">
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/light_font"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtEmailRegister"
+                android:layout_width="327dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/ediround"
+                android:hint="@string/your_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edtPhoneRegister"
+                android:layout_width="327dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/ediround"
+                android:hint="@string/your_phone_number_register"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/edtPasswordRegister"
+                android:layout_width="327dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/ediround"
+                android:hint="@string/passwordregister"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/edtConfirmPassRegister"
+                android:layout_width="327dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/ediround"
+                android:hint="@string/confirm_password_register"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
