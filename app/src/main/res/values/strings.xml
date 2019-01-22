@@ -12,6 +12,9 @@
     <string name="password">Password</string>
     <string name="login2">Login</string>
     <string name="btnregister">Register</string>
+    <string name="btnedithewan">Edit</string>
+    <string name="btneditservice">Edit</string>
+
     <string name="doesn_t_have_an_account">Doesn\'t have an account ?</string>
     <string name="register">REGISTER</string>
     <string name="passwordregister">Password</string>

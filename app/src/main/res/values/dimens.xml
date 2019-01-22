@@ -2,4 +2,21 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <declare-styleable name="CircleImageView">
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="highlightEnable" format="boolean"/>
+        <attr name="highlightColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AvatarImageView">
+        <attr name="avatarBackgroundColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="text" format="string"/>
+        <attr name="state" format="enum">
+            <enum name="INITIAL" value="1"/>
+            <enum name="IMAGE" value="2"/>
+        </attr>
+    </declare-styleable>
 </resources>
