@@ -53,12 +53,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edtPassword"
         android:textColor="@color/light_font"
-        android:textSize="12dp"
+        android:textSize="13sp"
         android:layout_marginRight="0dp"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="230dp"
         android:layout_marginTop="10dp"
-        android:text="Forgot Password ?"
+        android:text="@string/forgot_password_login"
         />
 
     <Button

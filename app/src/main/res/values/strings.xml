@@ -23,4 +23,8 @@
     <string name="your_email">Your Email</string>
     <string name="register2">Register</string>
     <string name="have_an_account">Have an account ?</string>
+    <string name="submit1">Submit</string>
+    <string name="your_registered_email">Your Registered Email</string>
+    <string name="forgot_password1">FORGOT PASSWORD</string>
+    <string name="forgot_password_login">Forgot Password ?</string>
 </resources>

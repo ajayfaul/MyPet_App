@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.mypetapp.example.mypet.R;
 
@@ -20,6 +21,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
 
     Button btnLogin, btnRegister;
+    TextView btnForgotPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         btnRegister = findViewById(R.id.btnRegister);
         btnRegister.setOnClickListener(this);
+
+        btnForgotPass = findViewById(R.id.btnForgotPassword);
+        btnForgotPass.setOnClickListener(this);
+
 
     }
 
@@ -44,6 +50,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 case R.id.btnRegister:
                     Intent moveIntent2 = new Intent(LoginActivity.this, RegisterActivity.class);
                     startActivity(moveIntent2);
+                case R.id.btnForgotPassword:
+                    Intent moveIntent3 = new Intent(LoginActivity.this, LupaPassActivity.class);
+                    startActivity(moveIntent3);
 
             }
     }
