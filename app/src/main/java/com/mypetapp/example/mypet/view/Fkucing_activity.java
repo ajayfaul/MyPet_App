@@ -14,6 +14,8 @@ public class Fkucing_activity extends AppCompatActivity {
         setContentView(R.layout.activity_fkucing_activity);
 
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("                  Community");
 
 
     }

@@ -9,14 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.LupaPassActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".view.LoginActivity"></activity>
+
+        <activity
+            android:name=".view.editserActivity"
+            android:parentActivityName=".view.menuNav"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.LupaPassActivity"
+            android:parentActivityName=".view.LoginActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.RegisterActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".view.LoginActivity"/>
-        <activity android:name=".view.Fkucing_activity" />
+            android:parentActivityName=".view.LoginActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".view.petgromingActivity" />
         <activity android:name=".view.adoptionActivity" />
         <activity
@@ -24,10 +29,15 @@
             android:parentActivityName=".view.menuNav"
             android:theme="@style/AppTheme2" />
         <activity
+            android:name=".view.Fkucing_activity"
+            android:parentActivityName=".view.menuNav"
+            android:theme="@style/AppTheme2" />
+        <activity
             android:name=".view.SettingsActivity"
             android:parentActivityName=".view.menuNav"
             android:theme="@style/AppTheme2" />
         <activity android:name=".view.menuNav" />
+
         <activity
             android:name=".view.LoginActivity"
             android:screenOrientation="portrait" />

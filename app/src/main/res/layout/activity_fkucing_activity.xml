@@ -8,11 +8,247 @@
     tools:context=".view.Fkucing_activity">
 
 
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollView2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="736dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="234dp"-->
+        <!--android:orientation="vertical"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/cardView2"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="0dp">-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="comunity"
-        android:textSize="70dp"
-        tools:ignore="MissingConstraints" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+
+        android:orientation="horizontal"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        //--------------------memasukan latepost-------///
+
+
+        <!--forum -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fkucing"
+            android:layout_width="327dp"
+            android:layout_height="118dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="157dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="7dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Kelinci Bandung" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:text="komunitas kelinci bandung" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/Fkucing"
+                android:paddingLeft="20dp"
+                android:paddingTop="55dp"
+                android:text="JL.cigondewah no 13,Bandung" />
+
+            <!--facebook dlll-->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/facebook_box"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="130dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/twitter"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="260dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/instagram"
+                tools:ignore="VectorDrawableCompat" />
+        </android.support.v7.widget.CardView>
+
+
+        <!--forum -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fhewan"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="41dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="7dp"
+                android:textStyle="bold"
+                android:text="Kucing jakarta" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:text="komunitas kucing jakarta" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="55dp"
+                android:text="JL.supratman no 18, jakarta" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/facebook_box"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="130dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/twitter"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="260dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/instagram"
+                tools:ignore="VectorDrawableCompat" />
+        </android.support.v7.widget.CardView>
+
+
+        <!--forum -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/Fhewan1"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="293dp"
+            android:layout_marginEnd="37dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            app:cardBackgroundColor="@color/light_font"
+            app:cardCornerRadius="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="7dp"
+                android:textStyle="bold"
+                android:text="Anjing surabaya" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:text="Komunitas anjing surabaya" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="55dp"
+                android:text="jl.imam bonjol surabaya" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/facebook_box"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="130dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/twitter"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="260dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/instagram"
+                tools:ignore="VectorDrawableCompat" />
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+    <!--</ScrollView>-->
+
 </android.support.constraint.ConstraintLayout>

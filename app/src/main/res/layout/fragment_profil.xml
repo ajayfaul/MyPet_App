@@ -162,7 +162,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/anjing2"
 
                     />
 
@@ -172,7 +172,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="100dp"
                     android:paddingLeft="8dp"
-                    android:text="kucing"
+                    android:text="Anjing"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -181,7 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="Chow - chow"
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
@@ -189,7 +189,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="adopted"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -220,7 +220,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/kucing"
 
                     />
 
@@ -239,7 +239,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="himalaya"
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
@@ -248,7 +248,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="not adaopted"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -279,7 +279,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/kelinci"
 
                     />
 
@@ -289,7 +289,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="100dp"
                     android:paddingLeft="8dp"
-                    android:text="kucing"
+                    android:text="kelinci"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -298,7 +298,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="anggora"
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
@@ -306,7 +306,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="not adopted"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -337,7 +337,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/burhan"
 
                     />
 
@@ -347,7 +347,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="100dp"
                     android:paddingLeft="8dp"
-                    android:text="kucing"
+                    android:text="burung hantu"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -356,22 +356,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="adopted"
                     android:textColor="@color/text_shadow_white" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="140dp"
-                    android:paddingLeft="8dp"
-                    android:shadowDx="0"
-                    android:shadowDy="0"
-                    android:shadowRadius="10"
-                    android:text="masukan text di sini"
-                    android:textColor="@color/text_shadow_white"
-                    android:textSize="20dp"
-
-                    android:textStyle="bold" />
 
 
             </android.support.v7.widget.CardView>

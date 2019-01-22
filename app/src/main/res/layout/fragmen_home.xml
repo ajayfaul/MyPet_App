@@ -146,7 +146,7 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/cat_cropped"
+            android:src="@drawable/anjing"
 
             />
 
@@ -238,7 +238,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/anjing2"
 
                     />
 
@@ -248,7 +248,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="100dp"
                     android:paddingLeft="8dp"
-                    android:text="kucing"
+                    android:text="anjing"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -257,7 +257,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="chow-chow"
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
@@ -265,7 +265,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="adopted"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -296,7 +296,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/kucing"
 
                     />
 
@@ -315,7 +315,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="himalaya"
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
@@ -324,7 +324,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="not adopted"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -355,7 +355,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/kelinci"
 
                     />
 
@@ -365,7 +365,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="100dp"
                     android:paddingLeft="8dp"
-                    android:text="kucing"
+                    android:text="Kelinci"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -374,7 +374,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="anggora"
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
@@ -382,7 +382,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="140dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="not adopted"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -413,7 +413,7 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat_cropped"
+                    android:src="@drawable/burhan"
 
                     />
 
@@ -423,7 +423,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="100dp"
                     android:paddingLeft="8dp"
-                    android:text="kucing"
+                    android:text="Burung hantu"
                     android:textColor="@color/text_shadow_white" />
 
 
@@ -432,7 +432,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:paddingLeft="8dp"
-                    android:text="masukan text di sini"
+                    android:text="-"
                     android:textColor="@color/text_shadow_white" />
 
                 <TextView
@@ -443,7 +443,7 @@
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="10"
-                    android:text="masukan text di sini"
+                    android:text="adopted"
                     android:textColor="@color/text_shadow_white"
                     android:textSize="20dp"
 
@@ -464,8 +464,6 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
-
-
 
 
         <!--forum -->
@@ -645,10 +643,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="24dp"
+            android:outlineSpotShadowColor="@color/text_shadow"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="100"
-            android:outlineSpotShadowColor="@color/text_shadow"
             app:cardBackgroundColor="@color/light_font"
             app:cardCornerRadius="16dp"
             app:cardPreventCornerOverlap="false"

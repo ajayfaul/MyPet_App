@@ -44,7 +44,7 @@ public class profil_fragment extends Fragment{
             btnedit.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent moveIntent2 = new Intent(getActivity(), adoptionActivity.class);
+                    Intent moveIntent2 = new Intent(getActivity(), editserActivity.class);
                     getActivity().startActivity(moveIntent2);
                 }
             });
