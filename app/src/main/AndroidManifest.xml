@@ -23,7 +23,7 @@
             android:parentActivityName=".view.LoginActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".view.petgromingActivity" />
-        <activity android:name=".view.adoptionActivity" />
+
         <activity
             android:name=".view.notifActivity"
             android:parentActivityName=".view.menuNav"
@@ -49,6 +49,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".view.adoptionActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".view.menuNav">
         </activity>
     </application>
 

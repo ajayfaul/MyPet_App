@@ -27,4 +27,6 @@
     <string name="your_registered_email">Your Registered Email</string>
     <string name="forgot_password1">FORGOT PASSWORD</string>
     <string name="forgot_password_login">Forgot Password ?</string>
+    <string name="tabfree">Free</string>
+    <string name="tabpaid">Paid</string>
 </resources>

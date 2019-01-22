@@ -62,7 +62,7 @@ public class Home_fragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    private BlankFragment.OnFragmentInteractionListener mListener;
+    private Home_fragment.OnFragmentInteractionListener mListener;
 
     public Home_fragment() {
         // Required empty public constructor

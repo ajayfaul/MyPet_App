@@ -15,4 +15,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent2</item>
     </style>>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--Customize your theme here. -->
+        <item name="colorPrimary">@color/light_font</item>
+        <item name="colorPrimaryDark">@color/light_font</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>>
 </resources>
