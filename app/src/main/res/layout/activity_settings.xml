@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,8 +11,101 @@
     <android.support.v7.widget.SwitchCompat
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Notification"
         android:id="@+id/switch_app_notif"/>
-</LinearLayout>
+    <android.support.v7.widget.CardView
+        android:id="@+id/privacy_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="#EBEBEB"
+        android:layout_below="@+id/switch_app_notif"
+        android:outlineAmbientShadowColor="@color/grey_font"
+        android:layout_marginTop="20dp"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="8dp"
+            android:gravity="left"
+            android:text="Privacy Policy"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/feedbackbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="#EBEBEB"
+        android:layout_below="@+id/privacy_btn"
+        android:outlineAmbientShadowColor="@color/grey_font"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="8dp"
+            android:gravity="left"
+            android:text="Feedback"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/aboutbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="#EBEBEB"
+        android:layout_below="@+id/feedbackbutton"
+        android:outlineAmbientShadowColor="@color/grey_font"
+        app:cardPreventCornerOverlap="false"
+        android:contextClickable="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="8dp"
+            android:gravity="left"
+            android:text="About"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/logoutbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="#EBEBEB"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/aboutbutton"
+        android:outlineAmbientShadowColor="@color/grey_font"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="8dp"
+            android:gravity="left"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"/>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

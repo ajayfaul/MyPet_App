@@ -50,9 +50,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 case R.id.btnRegister:
                     Intent moveIntent2 = new Intent(LoginActivity.this, RegisterActivity.class);
                     startActivity(moveIntent2);
+                    break;
                 case R.id.btnForgotPassword:
                     Intent moveIntent3 = new Intent(LoginActivity.this, LupaPassActivity.class);
                     startActivity(moveIntent3);
+                    break;
 
             }
     }

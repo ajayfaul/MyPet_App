@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".view.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".view.SettingsActivity"
+            />
+        <activity android:name=".view.FeedbackActivity"
+            android:parentActivityName=".view.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".view.PrivacyPolicyActivity"
+            android:parentActivityName=".view.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"/>
         <activity
             android:name=".view.editserActivity"
             android:parentActivityName=".view.menuNav"
@@ -22,8 +34,10 @@
             android:name=".view.RegisterActivity"
             android:parentActivityName=".view.LoginActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".view.petgromingActivity" />
-
+        <activity
+            android:name=".view.petgromingActivity"
+            android:parentActivityName=".view.menuNav"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.notifActivity"
             android:parentActivityName=".view.menuNav"
@@ -37,7 +51,6 @@
             android:parentActivityName=".view.menuNav"
             android:theme="@style/AppTheme2" />
         <activity android:name=".view.menuNav" />
-
         <activity
             android:name=".view.LoginActivity"
             android:screenOrientation="portrait" />
@@ -50,11 +63,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".view.adoptionActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".view.menuNav">
-        </activity>
+        <activity
+            android:name=".view.adoptionActivity"
+            android:parentActivityName=".view.menuNav"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
